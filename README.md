@@ -12,7 +12,7 @@ This project is not affiliated with WaveShare or Raspberry Pi in any way.
 ## Prerequisites
 - Raspberry Pi (tested on RPi 4 and RPi 3b+)
 - Raspberry Pi e-Paper display (mentioned above)
-- Raspberry Pi OS (tested on "Raspberry Pi OS Lite (64 bits) - 2024-11-19"
+- Raspberry Pi OS (tested on "Raspberry Pi OS Lite (64 bits) - 2024-11-19")
 - Python 3 (tested on Python 3.11.2)
 
 ## Tutorial
