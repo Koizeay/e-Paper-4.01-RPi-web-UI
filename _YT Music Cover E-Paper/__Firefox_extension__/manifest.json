@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Video ID Tracker",
+    "version": "1.0",
+    "description": "Track the video ID of the current YouTube video",
+    "permissions": ["tabs", "activeTab"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": "icon-on.png"
+    }
+}

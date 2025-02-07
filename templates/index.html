@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Upload image - E-Paper Display</title>
+</head>
+<body>
+    <h1 class="no_margin">Upload BMP image</h1>
+    <p class="no_margin"><i>BMP 24 bits (saved with MS paint or converted with the script) - 640x400px</i></p><br/><br/>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept=".bmp" required>
+        <button type="submit">Upload</button>
+    </form>
+    <br>
+    <a href="/manage">Manage images</a>
+</body>
+</html>
